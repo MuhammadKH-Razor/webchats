@@ -1,0 +1,857 @@
+:root {
+    --primaryDashboard: rgb(32, 32, 32);
+    --primaryTypingChats: black;
+    --primaryPageChats: black;
+    --primaryNavBoard: black;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+}
+
+.error {
+    color: rgba(255, 0, 0, 0.918);
+    font-weight: 500;
+    font-size: 14px;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: rgb(207, 207, 207);
+    width: 10px;
+    border-radius: 13px;
+}
+
+.dashX {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    margin: auto;
+    font-weight: 500;
+    display: flex;
+    color: white;
+}
+
+.dashX .dashboard1X {
+    position: relative;
+    width: 30%;
+    height: 100vh;
+    background-color: rgb(36, 36, 36);
+}
+
+.dashboard1X-light {
+    background-color: rgb(233, 233, 233);
+}
+
+.top-dash {
+    position: relative;
+    background-color: rgb(47, 47, 47);
+    width: 100%;
+    height: 70px;
+}
+
+.top-dash-one {
+    position: relative;
+    background-color: rgb(47, 47, 47);
+    width: 100%;
+    height: 50px;
+    display: flex;
+}
+
+.plus {
+    position: absolute;
+    right: 80px;
+    color: grey;
+    transition: 0.4s;
+}
+
+.plus:hover {
+    position: absolute;
+    cursor: pointer;
+    color: rgb(219, 219, 219);
+    transition: 0.4s;
+}
+
+.la-sign-in-alt {
+    position: absolute;
+    right: 70px;
+    font-size: 30px;
+    color: grey;
+    transition: 0.4s;
+    margin-top: 8px;
+    font-size: 30px;
+}
+
+.la-sign-in-alt:hover {
+    position: absolute;
+    cursor: pointer;
+    color: rgb(219, 219, 219);
+    transition: 0.4s;
+}
+
+.top-dash .group-text {
+    position: relative;
+    left: 10px;
+    top: 15px;
+    width: 80%;
+    height: 60%;
+    border-radius: 40px;
+    border: none;
+    outline: none;
+    color: rgb(255, 255, 255);
+    background-color: rgb(255, 255, 255);
+    padding: 3px 3px 3px 15px;
+}
+
+.top-dash .la-search {
+    position: absolute;
+    margin-top: 20px;
+    margin-left: 25px;
+    font-size: 30px;
+}
+
+.top-dash .la-plus {
+    position: absolute;
+    margin-top: 8px;
+    margin-left: 25px;
+    font-size: 30px;
+}
+
+.groupChats {
+    position: relative;
+    width: 100%;
+    height: auto;
+    padding: 15px 10px;
+    display: flex;
+    background-color: transparent;
+    border-bottom: 1px solid rgb(59, 59, 59);
+    transition: 0.3s;
+    animation: gc 1s;
+}
+
+.groupChats:focus {
+    background-color: rgb(248, 15, 15);
+}
+
+.groupChats-light {
+    border-bottom: 1px solid rgb(241, 241, 241);
+}
+
+@keyframes gc{
+    0% {
+        margin-left: 0px;
+    }
+    50% {
+        margin-left: 20px;
+    }
+    100% {
+        margin-left: 0px;
+    }
+}
+
+.groupChats:hover {
+    position: relative;
+    transition: 0.3s;
+    cursor: pointer;
+    margin-left: 15px;
+    background-color: #fff;
+}
+
+.logo-group {
+    position: relative;
+    width: 50px;
+    height: 48px;
+    border-radius: 100px;
+    text-align: center;
+    background-color: rgb(0, 183, 255);
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    padding: 10px;
+    margin: 10px;
+}
+
+.name-group {
+    position: relative;
+    margin-left: 20px;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+}
+
+.name-group-light {
+    color: rgb(26, 26, 26);
+}
+
+.groupChats:hover .name-group {
+    color: rgb(0, 0, 0);
+}
+
+.last-chats {
+    position: relative;
+    margin-left: 20px;
+    color: rgb(255, 255, 255);
+}
+
+.last-chats-light {
+   color: rgb(26, 26, 26);
+}
+
+.groupChats:hover .last-chats {
+    color: rgb(0, 0, 0);
+}
+
+.details-group {
+    position: relative;
+    display: block;
+    margin-top: 3px;
+}
+
+.dashX .dashboard1X .group-text {
+    background-color: rgb(77, 77, 77);
+}
+
+.dashX .dashboard2X {
+    position: relative;
+    width: 70%;
+    height: 700px;
+    background-color: rgb(255, 255, 255);
+}
+
+.info-groupX {
+    position: relative;
+    width: 100%;
+    color: rgb(255, 255, 255);
+    height: 50px;
+    display: flex;
+    animation: agX 1s;
+    background-color: rgb(47, 47, 47);
+}
+
+@keyframes agX {
+    from {
+        top: -100%;
+    }
+    to {
+        top: 0%;
+    }
+}
+
+.tabs {
+    position: relative;
+    top: 1px;
+    margin-left: auto;
+    right: 40px;
+    color: rgb(197, 197, 197);
+    font-size: 30px;
+    transition: 0.4s;
+}
+
+.tabs:hover {
+    position: relative;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    transition: 0.4s;
+}
+
+#cog {
+    position: relative;
+    margin-right: 40px;
+    transition: 0.3s;
+}
+
+#cog:hover {
+    transform: rotate(50deg);
+    transition: 0.3s;
+}
+
+.tabs-menu {
+    position: absolute;
+    top: 80px;
+    right: 0;
+    width: 200px;
+    padding: 20px 0;
+    height: auto;
+    border-radius: 3px;
+    background-color: #fff;
+    z-index: 4;
+    display: none;
+    transition: 0.1s;
+}
+
+#closedX {
+    position: absolute;
+    top: 0;
+    right: 30px;
+    color: white;
+    font-size: 35px;
+    z-index: 999;
+}
+
+#closedX2 {
+    position: absolute;
+    top: 20px;
+    right: 30px;
+    color: white;
+    font-size: 35px;
+    z-index: 999;
+    transition: 0.4s;
+    animation: clx1 2s;
+}
+
+@keyframes clx1 {
+    from {
+        transform: rotate(45deg);
+    }
+    to {
+        transform: rotate(0deg);
+    }
+}
+
+#closedX2:hover {
+    cursor: pointer;
+    color: rgba(255, 255, 255, 0.801);
+    transition: 0.4s;
+    transform: rotate(45deg);
+}
+
+.tabs-menu2 {
+    position: absolute;
+    top: -2px;
+    right: -1000px;
+    width: 70vw;
+    padding: 20px 0;
+    height: 100vh;
+    background-color: rgb(44, 44, 44);
+    z-index: 5;
+    opacity: 1;
+    transition: 0.4s;
+    color: white;
+}
+
+.tabs-menu2.showX2 {
+    position: absolute;
+    top: -2px;
+    right: -40px;
+    width: 70vw;
+    padding: 20px 0;
+    height: 100vh;
+    background-color: rgb(44, 44, 44);
+    z-index: 5;
+    opacity: 1;
+    transition: 0.4s;
+    color: white;
+}
+
+.tabs-menu3 {
+    position: absolute;
+    top: -2px;
+    right: -1000px;
+    width: 70vw;
+    padding: 20px 10px;
+    height: 100vh;
+    background-color: rgb(44, 44, 44);
+    z-index: 5;
+    opacity: 1;
+    transition: 0.4s;
+    color: white;
+}
+
+.tabs-menu3 h2 {
+    position: relative;
+    top: 0px;
+    left: 20px;
+    color: rgb(10, 200, 248);
+}
+
+.tabs-menu3 small {
+    position: relative;
+    left: 26px;
+    opacity: 0.8;
+    font-size: 16px;
+}
+
+.tabs-menu3 .labels {
+    position: relative;
+    margin-top: 40px;
+    left: 26px;
+    color: rgb(10, 200, 248);
+    font-size: 22px;
+}
+
+.tabs-menu3 p {
+    position: relative;
+    margin-top: 15px;
+    left: 26px;
+    font-size: 20px;
+}
+
+.tabs-menu3.showX3 {
+    position: absolute;
+    top: -2px;
+    right: -40px;
+    width: 70vw;
+    height: 100vh;
+    background-color: rgb(44, 44, 44);
+    z-index: 5;
+    opacity: 1;
+    transition: 0.4s;
+    color: white;
+}
+
+.tabs-menu.showX {
+    position: absolute;
+    top: 80px;
+    right: 0;
+    width: 200px;
+    padding: 20px 0;
+    height: auto;
+    border-radius: 3px;
+    background-color: #fff;
+    z-index: 4;
+    display: inline;
+    transition: 0.1s;
+}
+
+.tabs-menu::before {
+    position: absolute;
+    content: '';
+    top: -15px;
+    right: 20px;
+    width: 30px;
+    height: 30px;
+    transform: rotate(45deg);
+    background-color: rgb(255, 255, 255);
+}
+
+.tabs-menu ul li {
+    position: relative;
+    width: 100%;
+    padding: 15px;
+    transition: 0.4s;
+    color: rgb(19, 19, 19);
+    font-size: 17px;
+}
+
+.tabs-menu ul li:hover {
+    position: relative;
+    color: rgb(255, 255, 255);
+    transition: 0.4s;
+    background-color: rgb(184, 184, 184);
+    cursor: pointer;
+}
+
+.tabs-menu2 h2 {
+    position: relative;
+    top: -2px;
+    left: 20px;
+    color: rgb(10, 200, 248);
+}
+
+.dekorasi-sett {
+    position: absolute;
+    opacity: 0.1;
+    bottom: 0;
+    right: 0;
+    width: 75%;
+}
+
+.btn-up-sett {
+    position: relative;
+    margin-left: 40px;
+    width: auto;
+    height: auto;
+    border: none;
+    outline: none;
+    background-color: rgb(255, 255, 255);
+    color: black;
+    border-radius: 30px;
+    text-align: center;
+    font-weight: 500;
+    padding: 4px 16px;
+    font-size: 17px;
+    transition: 0.3s;
+}
+
+.btn-up-sett:hover {
+    position: relative;
+    margin-left: 45px;
+    cursor: pointer;
+    background-color: rgb(8, 193, 250);
+    color: rgb(255, 255, 255);
+    transition: 0.3s;
+}
+
+.mode {
+    position: relative;
+    margin-left: 30px;
+    width: 140px;
+    height: 40px;
+    border-radius: 30px;
+    background-color: #fff;
+    border: 1px solid transparent;
+    outline: none;
+    overflow: hidden;
+}
+
+.btn-mode {
+    position: relative;
+    background-color: black;
+    border-radius: 40px;
+    left: 1px;
+    width: 38px;
+    height: 100%;
+    text-align: center;
+    font-weight: bold;
+    transition: 0.5s;
+}
+
+.btn-mode:hover {
+    position: relative;
+    background-color: rgb(4, 176, 255);
+    transition: 0.1s;
+}
+
+.btn-mode2 {
+    position: relative;
+    left: 100px;
+    transition: 0.5s;
+}
+
+.tabs-menu2 ul {
+    position: relative;
+    margin-top: 60px;
+}
+
+.tabs-menu2 ul li {
+    position: relative;
+    left: 20px;
+    width: 100%;
+    padding: 20px;
+    transition: 0.4s;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+}
+
+.li-sett {
+    position: relative;
+    margin-top: 15px;
+    display: flex;
+    width: 100%;
+}
+
+.tabs-menu2 ul .li-sett:hover {
+    position: relative;
+    color: rgb(255, 255, 255);
+    transition: 0.4s;
+    cursor: pointer;
+}
+
+.li-mode {
+    position: relative;
+    margin-top: 70px;
+    display: flex;
+}
+
+.li-mode:hover {
+    position: relative;
+    color: rgb(255, 255, 255);
+    transition: 0.4s;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.tabs-menu h5 {
+    font-size: 17px;
+    color: black;
+}
+
+.logo-group2 {
+    position: absolute;
+    width: 60px;
+    height: 100%;
+    text-align: center;
+    background-color: rgb(0, 183, 255);
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    padding: 10px;
+}
+
+.name-group2 {
+    position: relative;
+    width: 100%;
+    top: 10px;
+    margin-left: 100px;
+    font-size: 18px;
+    color: rgb(255, 255, 255);
+}
+
+.dashX .dashboard2X .page-chatsX {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    padding: 10px 10px 120px 10px;
+    margin: auto;
+    background-color: rgb(44, 44, 44);
+}
+
+.chats-intro {
+    position: relative;
+    margin: auto;
+    width: 100%;
+    height: auto;
+    border-radius: 4px;
+    padding: 15px;
+    font-weight: 500;
+    background-color: rgb(32, 32, 32);
+    color: rgb(124, 124, 124);
+    font-size: 15px;
+    display: flex;
+    margin-bottom: 50px;
+}
+
+.chats-intro span {
+    position: relative;
+    color: white;
+}
+
+#closeIntro {
+    position: relative;
+    margin-left: auto;
+    color: rgba(255, 255, 255, 0.808);
+    font-size: 24px;
+}
+
+.chats-line {
+    position: relative;
+    color: rgb(248, 248, 248);
+    border-radius: 10px;
+    margin: 25px 10px;
+    height: auto;
+    padding: 20px 10px;
+    text-align: left;
+    overflow: hidden;
+    transition: 0.5s;
+    z-index: 3;
+}
+
+.nameX {
+    position: relative;
+    top: -10px;
+    color: rgba(0, 0, 0, 0.774);
+}
+
+.nameCom {
+    position: relative;
+    margin-left: auto;
+    width: 100%;
+}
+
+.com:hover {
+    cursor: pointer;
+    transition: 0.2s;
+    margin-left: 40px;
+}
+
+.com {
+    position: relative;
+    width: 60%;
+    transition: 0.3s;
+    background-color: rgb(167, 167, 167);
+    animation: cm 0.5s;
+}
+
+@keyframes cm {
+    from {
+        left: -100%;
+    }
+    to {
+        left: 0%;
+    }
+}
+
+#share {
+    position: absolute;
+    top: 0;
+    left: -55px;
+    width: 10%;
+    height: 100%;
+    font-size: 30px;
+    background-color: #fff;
+    color: black;
+    text-align: center;
+    font-weight: bold;
+    transition: 0.4s;
+    padding-top: 4vh;
+    z-index: 3;
+}
+
+.com:hover #share {
+    transition: 0.2s;
+    z-index: 3;
+    left: 0;
+}
+
+#share:hover {
+    transition: 0.4s;
+    cursor: pointer;
+    background-color: rgb(231, 18, 18);
+    color: rgb(255, 255, 255);
+    transform: scaleX(1.05);
+}
+
+.user:hover {
+    cursor: pointer;
+    transition: 0.2s;
+    margin-right: 40px;
+}
+
+.user {
+    position: relative;
+    width: 60%;
+    transition: 0.3s;
+    background-color: rgb(0, 183, 255);
+    margin-left: auto;
+    animation: cm2 0.5s;
+}
+
+.sendClock {
+    position: relative;
+    font-size: 13px;
+    color: rgb(228, 228, 228);
+}
+
+#share2 {
+    position: absolute;
+    top: 0;
+    right: -58px;
+    width: 10%;
+    height: 100%;
+    font-size: 30px;
+    background-color: #fff;
+    color: black;
+    text-align: center;
+    font-weight: bold;
+    transition: 0.4s;
+    padding: 1rem 0;
+}
+
+#share2a {
+    position: absolute;
+    top: 0;
+    left: -58px;
+    width: 10%;
+    height: 100%;
+    font-size: 30px;
+    background-color: #fff;
+    color: black;
+    text-align: center;
+    font-weight: bold;
+    transition: 0.4s;
+    padding: 1rem 0;
+    z-index: 2;
+}
+
+#share2:hover {
+    transition: 0.4s;
+    cursor: pointer;
+    color: rgb(255, 255, 255);
+    transform: scaleX(1.05);
+    background-color: rgb(230, 17, 17);
+}
+
+#share2a:hover {
+    transition: 0.4s;
+    cursor: pointer;
+    color: rgb(255, 255, 255);
+    transform: scaleX(1.05);
+    background-color: rgb(230, 17, 17);
+}
+
+.user:hover {
+    cursor: pointer;
+    transition: 0.2s;
+    margin-right: 40px;
+}
+
+.user:hover #share2 {
+    transition: 0.2s;
+    right: 0;
+}
+
+.user:hover #share2a {
+    transition: 0.2s;
+    left: 0;
+    z-index: 2;
+    border-radius: 2px;
+}
+
+@keyframes cm2 {
+    from {
+        right: -60%;
+    }
+    to {
+        right: 0%;
+    }
+}
+
+.typing-chats {
+    position: fixed;
+    bottom: 0px;
+    right: 0;
+    width: 70%;
+    height: auto;
+    z-index: 4;
+    padding: 10px 10px 10px 10px;
+    background-color: rgb(223, 223, 223);
+    color: black;
+}
+
+.pin {
+    position: relative;
+    margin-left: 5px;
+    color: rgb(245, 245, 245);
+}
+
+.typing-chats .chatsText {
+    position: relative;
+    width: 90%;
+    border-radius: 40px;
+    border: none;
+    outline: none;
+    background-color: #fff;
+    color: black;
+    padding: 10px 10px 10px 15px;
+    font-weight: 500;
+    text-align: left;
+    transition: 0.2s;
+}
+
+.typing-chats i {
+    position: relative;
+    top: 5px;
+    margin: 0px 10px;
+    font-size: 30px;
+    background-color: #fff;
+    color: rgb(1, 204, 255);
+    border-radius: 50px;
+    padding: 5px;
+    text-align: center;
+    transition: 0.3s;
+}
+
+.typing-chats i:hover {
+    position: relative;
+    cursor: pointer;
+    transform: scale(1.2);
+    transition: 0.3s;
+}

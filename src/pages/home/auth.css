@@ -1,0 +1,137 @@
+body {
+    background-color: rgb(44, 43, 43);
+}
+
+.form-auth {
+    position: relative;
+    top: 25px;
+    width: 37%;
+    height: 60%;
+    margin: auto;
+    border-radius: 27px;
+    padding: 10px 10px 25px 10px;
+    background-color: rgb(49, 49, 49);
+    color: white;
+}
+
+.form-auth h2 {
+    position: relative;
+    width: 100%;
+    font-size: 30px;
+    font-weight: bold;
+    margin: 20px 20px 12px 15px;
+}
+
+.form-chats-mulaiu {
+    position: relative;
+    display: block;
+}
+
+.form-chats-mulaiu {
+    position: relative;
+    margin: 20px;
+}
+
+.form-chats-mulaiu span {
+    position: relative;
+    font-weight: 500;
+    margin: 10px;
+}
+
+.input-chats-mulai {
+    position: relative;
+    width: 80%;
+    margin: auto;
+    border: none;
+    outline: none;
+    border-radius: 4px;
+    padding: 10px 10px 10px 13px;
+    color: rgb(26, 26, 26);
+    font-weight: 500;
+}
+
+.lg-rg {
+    position: relative;
+    left: 2px;
+    width: 100%;
+    height: auto;
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(73, 73, 73);
+    padding: 0 20px 5px 20px;
+    cursor: pointer;
+}
+
+.gabung {
+    border-radius: 4px 0 0 4px;
+}
+
+.lgs-full {
+    background-color: rgba(255, 255, 255, 0.993);
+}
+
+.lgs-set {
+    background-color: rgba(255, 255, 255, 0.349);
+}
+
+.daftar {
+    border-radius: 0 4px 4px 0px;
+    transform: scale(0.91);
+}
+
+.lg-rg:hover {
+    position: relative;
+    background-color: rgb(224, 224, 224);
+    transition: 0.3s;
+}
+
+.btn-mulai {
+    position: relative;
+    background-color: rgb(0, 183, 255);
+    color: white;
+    border-radius: 4px;
+    padding: 10px 15px;
+    font-weight: 500;
+    font-size: 18px;
+    text-align: center;
+    margin: 20px;
+    width: 200px;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    transition: 0.3s;
+}
+
+.btn-mulai:hover {
+    position: relative;
+    background-color: rgb(43, 144, 184);
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.akun {
+    position: relative;
+    width: 100%;
+}
+
+.signup-mulai {
+    position: relative;
+    margin: 15px 20px;
+}
+
+.space{
+    position: absolute;
+    top: -220px;
+    left: 90px;
+    width: 85%;
+    filter: grayscale(55%);
+    opacity: 0.2;
+}
+
+.span-error {
+    position: relative;
+    color: rgba(255, 0, 0, 0.911);
+    font-size: 13px;
+    opacity: 0.7;
+    font-weight: normal;
+}
